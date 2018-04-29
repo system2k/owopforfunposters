@@ -1,0 +1,13 @@
+{
+    "name": "owopforspammers",
+    "version": "1.0.0",
+    "description": "OWOP for spammers",
+    "dependencies": {
+        "ws": "*",
+        "sqlite3": "*"
+    },
+    "scripts": {
+        "start": "node server.js; node backserver.js"
+    },
+    "private": true
+}
